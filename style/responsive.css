@@ -36,3 +36,20 @@
     }
     
 }
+
+@media screen and (max-width:1000px) {
+    .menu-de-login{
+        margin-left: 0px ;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    
+}
+
+@media screen and (max-width:1000px) {
+    .menu-de-pesquisa{
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    
+}
