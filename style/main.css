@@ -121,40 +121,6 @@ header nav a:hover{
     margin-right: 8px;
 }
 
-.menu-login{
-    color: #FFF;
-    background-color: var(--vermelho);
-    border: none;
-    font-size: 15px;
-    border-radius: 2px;
-    padding: 3px 8px;
-    flex: end;
-    flex-direction: row;
-    margin-left: 500px;
-    cursor: pointer;
-    
-}
-
-
-
-.menu-pesquisa{
-    color: white;
-    background-color: transparent;
-    border-color: white;
-    border-radius: 5px;
-    justify-content: ends;
-    align-items: flex-end;
-          
-}
-
-.menu-pesquisar{
-    color: white;
-    background-color: transparent;
-    border: none;
-    margin-left: 10px;
-    cursor: pointer;  
-}
-
 
 .filme-principal .container{
     width: 70%;
@@ -165,4 +131,38 @@ header nav a:hover{
     width: 100%;
     display: block;
     
+}
+
+
+.titulos-carrosseis{
+    font-size: 25px;
+    font-family: 'Arial', Helvetica, sans-serif;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.menu-de-login{
+    flex-direction: row;
+    margin-left: 500px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: end;
+ 
+}
+
+.menu-login{
+    color: #FFF;
+    background-color: var(--vermelho);
+    border: none;
+    font-size: 15px;
+    border-radius: 2px;
+    padding: 3px 8px;
+    cursor: pointer;
+}
+
+.menu-pesquisar{
+    color: white;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
 }
