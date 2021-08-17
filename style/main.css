@@ -166,3 +166,15 @@ header nav a:hover{
     border: none;
     cursor: pointer;
 }
+
+.menu-de-rodape{
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.container2{
+    font-size: 45px;
+    align-items: center;    
+    text-align: center;
+    color: white;
+}
